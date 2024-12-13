@@ -17,16 +17,20 @@ spec:
     registry: ghcr.io
   environments:
   - key: dev
+    owner: DaleWYZ
+    repository: jenkinx-1213
   - key: staging
   - key: production
   ingress:
-    domain: "jenkinsx.corp.angoo.io"
-    externalDNS: false
+    domain: jenkinsx.corp.angoo.io
+    kind: ingress
     namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: DaleWYZ
   repository: bucketrepo
   secretStorage: local
   vault: {}
