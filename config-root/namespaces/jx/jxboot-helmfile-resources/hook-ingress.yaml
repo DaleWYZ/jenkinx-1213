@@ -21,4 +21,4 @@ spec:
             port:
               number: 80
         path: "/hook"
-    host: 904f-107-215-251-100.ngrok-free.app
+    host: 4667-107-215-251-100.ngrok-free.app
