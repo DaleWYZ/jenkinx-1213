@@ -11,7 +11,7 @@
     - name: bucketrepo
       url: http://bucketrepo-jx.jenkinsx.corp.angoo.io
     - name: hook
-      url: http://ab2b-107-215-251-100.ngrok-free.app/hook
+      url: http://904f-107-215-251-100.ngrok-free.app/hook
     lastDeployed: "2024-12-13T14:14:28Z"
     name: jxboot-helmfile-resources
     releaseName: jxboot-helmfile-resources
